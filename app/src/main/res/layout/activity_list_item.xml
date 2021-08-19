@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#bfbfbf">
+
+    <!--1st line-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="7">
+
+        <TextView
+            android:id="@+id/txtNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="1"
+            android:background="#fff"
+            android:layout_margin="2px"
+            android:textSize="40px"/>
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#fff"
+            android:layout_margin="2px"
+            android:text="준식"
+            android:textSize="40px"/>
+        <TextView
+            android:id="@+id/txtRegDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="#fff"
+            android:layout_margin="2px"
+            android:text="2021/08/19"
+            android:textSize="40px"/>
+
+
+    </LinearLayout>
+
+    <!--2nd line-->
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40px"
+        android:text="내용입니다."
+        android:background="#fff"
+        android:layout_margin="2px"
+        android:lines="4"/>
+
+
+</LinearLayout>
