@@ -14,6 +14,13 @@
         android:background="?attr/colorPrimary"
         app:title="빵명록리스트"
         />
+    <Button
+        android:id="@+id/btnWriteForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="글쓰기"
+        />
     
     <ListView
         android:id="@+id/lvGuestbookList"
